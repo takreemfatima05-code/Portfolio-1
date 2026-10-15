@@ -1,0 +1,102 @@
+.h-7{
+    width: 70px;
+    height: 50px;
+}
+.image{
+width: 400px;
+height: 290px;
+}
+.icon{
+    width: 200px;
+    height: 200px;
+}
+.button1{
+    justify-content: center;
+    width: 120px;
+    height: 50px;
+    align-items: center;
+    border-radius: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.button1:hover{
+    justify-content: center;
+    width: 130px;
+    height: 50px;
+    align-items: center;
+    border-radius: 30px;
+    border: 5px solid #9CDCFE;
+    background-color: whitesmoke;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button2{
+    justify-content: center;
+    width: 140px;
+    height: 50px;
+  text-align: center;
+  align-items: center;
+    background-color: rgb(255, 255, 255);
+    color:black;
+    border-radius: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.button2:hover{
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+  text-align: center;
+  align-items: center;
+    background-color:#9CDCFE;
+    color: #000000;
+    border: 5px  solid rgb(255, 255, 255);
+    border-radius: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+.div2{
+    margin-top: -20px;
+}
+.h1{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.span1{
+    color: #9CDCFE;
+}
+.about{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.button3{
+    border-radius: 30px;
+}
+.button3:hover{
+    border-radius: 30px;
+    color: #000000;
+    border: 5px solid #9CDCFE;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.image1{
+    width: 700px;
+    height: 500px;
+    filter: grayscale();
+}
+.image1:hover{
+    filter: none;
+    cursor: pointer;
+}
+#aboutmee{
+    padding: 2px;
+    
+}
+.div1{
+    border: 1px solid #9CDCFE;
+    transform: rotate(10deg);
+}
