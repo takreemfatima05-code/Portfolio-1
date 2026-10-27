@@ -7,7 +7,11 @@ body{
 }
 .image{
 width: 400px;
-height: 290px;
+height: 270px;
+margin-bottom: -1px;
+}
+.takram{
+   font-family:  'Poppins', sans-serif;
 }
 .icon{
     width: 200px;
@@ -62,7 +66,12 @@ height: 290px;
     cursor: pointer;
 }
 .div2{
-    margin-top: -20px;
+    margin-top: 20px;
+    gap: 20px;
+}
+.div4{
+     margin-top: -18px;
+    gap: 20px;
 }
 .h1{
     color: aliceblue;
@@ -73,7 +82,20 @@ height: 290px;
     color: #9CDCFE;
 }
 .about{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+   margin-top:-3px;
+   font-family:'Poppins', sans-serif;
+}
+.exp{
+    font-size: 15px;
+    margin-bottom: 50px;
+    margin-top: -20px;
+    
+}
+.buttonexp{
+    font-size: 15px;
+    margin-bottom: 50px;
+    margin-top: -20px;
+   
 }
 .button3{
     border-radius: 30px;
@@ -86,13 +108,9 @@ height: 290px;
     font-weight: bolder;
     cursor: pointer;
 }
-.button4:hover{
-    
-}
 .image1{
     width: 700px;
     height: 400px;
-    filter: grayscale();
 }
 .image1:hover{
     filter: none;
@@ -108,6 +126,14 @@ height: 290px;
 }
 .container{
     margin-top: -60px;
+}
+.container6{
+    margin-top: -60px;
+    width: 1200px;
+    border-radius: 20px;
+}
+.container6:hover{
+    border: 1px solid #9CDCFE;
 }
 .skill{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -125,10 +151,17 @@ height: 290px;
     margin-bottom: 20px;
 }
 .skilldiv:hover{
-    box-shadow: 0px 0px 10px #9CDCFE;
+    box-shadow: 0px 0px 25px #9CDCFE;
+}
+.contact{
+    border: 2px 2px 2px #000000;
+    box-shadow:0px 0px 3px rgb(59, 59, 59) ;
+    border-radius: 20px;
 }
 .contact:hover{
     box-shadow: 0px 0px 15px #9CDCFE;
+    border:2px 2px 2px solid #f3f4f5;
+    
 }
 .git:hover{
 width: 50px;
